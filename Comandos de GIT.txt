@@ -63,6 +63,12 @@ git pull
 git tag versionN -m "MENSAJE"
 -> Genera un tag que dice que la versión esta completada o estable
 
+git tag --list
+-> Lista los tags creados
+
+git push --delete origin nombre-del-tag
+-> Eliminar un tag una vez ya realizado el push
+
 git clone HTTPS_DEL_REPOSITORIO_GITHUB
 -> Clona el proyecto especificado
 
