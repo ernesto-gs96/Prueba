@@ -1,0 +1,94 @@
+Comandos básicos de GIT
+
+git --version 
+-> Para saber que versión de GIT esta instalada.
+
+git config --global user.name "neto-gs"
+-> Configurar el usuario global para los commit (MUY NECESARIO)
+
+git config --global user.email ernesto_gs96@hotmail.com
+-> Configurar el email del usuario global para los commit (MUY NECESARIO)
+
+git init
+-> Para iniciar un repositorio
+
+git add .
+-> Añade todos lo archivos al staging area (Área de ensayo)
+
+git add Archivo
+-> Añade el archivo que se meciono al Staging area
+
+git commit -m "MENSAJE"
+-> Añade los archivos en Staging area al repositorio.
+
+git status -s
+-> Muestra el estado de los archivos, si fueron modificados, agregados al área de ensayo, etc.
+
+git log --oneline
+-> Listado de todas las copias realizadas
+
+git reset --hard CODIGO DE VERSION
+-> Resetea a la versión solicitada
+
+------------------------------------------------------------------------------------------------
+Cambiar mensaje de un commit
+git commit --amend
+-> Abre el editor vim con el commit realizado.
+
+Dentro de VIM
+:i
+-> Permite editar dentro de VIM
+
+Después presionar cualquier tecla para empezar a editar
+
+:wq
+-> Guardar cambios y salir.
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+SUBIR UN REPOSITORIO LOCAL A GIT HUB
+git remote add origin Dirección_del_repositorio_en_GITHUB
+-> Añadir al repositorio GITHUB que se desea subir nuestro repositorio local
+
+git brach -M master
+-> Indicar la rama
+
+git push -u origin master
+-> Subir el repositorio en la rama master del github añadido
+------------------------------------------------------------------------------------------------
+
+git pull
+-> Trae las ultimas modificaciones realizadas al repositorio
+
+git tag versionN -m "MENSAJE"
+-> Genera un tag que dice que la versión esta completada o estable
+
+git clone HTTPS_DEL_REPOSITORIO_GITHUB
+-> Clona el proyecto especificado
+
+------------------------------------------------------------------------------------------------
+RAMAS
+git branch
+-> Indica en que rama nos encontramos
+
+git branch NOMBRE_RAMA
+-> Crea la rama con el nombre dado
+
+git checkout NOMBRE_RAMA
+-> Cambiar de rama
+
+git merge NOMBRE_RAMA
+-> Hace la unión de las ramas, esto se tiene que hacer desde la rama master siempre
+*Si hay confictos por cambios en los mismos campos marcara error
+
+git branch -d NOMBRE_RAMA
+-> Borrar rama
+
+------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
