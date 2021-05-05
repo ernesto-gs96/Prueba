@@ -3,3 +3,31 @@ body{
     font-size: 25px;
     background-color: orange;
 }
+
+#parar{
+    background-color: yellow;
+    width: 100px;
+    height: 50px;
+    font-size: large;
+    border: none;
+    border-radius: 12%;
+}
+
+#continuar{
+    background-color: green;
+    width: 100px;
+    height: 50px;
+    font-size: large;
+    border: none;
+    border-radius: 12%;
+}
+
+#resetear{
+    background-color: red;
+    width: 100px;
+    height: 50px;
+    font-size: large;
+    border: none;
+    border-radius: 12%;
+}
+
